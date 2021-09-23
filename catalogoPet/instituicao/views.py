@@ -8,7 +8,7 @@ def consultarInstituicao(request):
 
 def excluirInstituicao(request):
     context = {}
-    return render(request, 'deletar-instituicao.html', context)
+    return render(request, 'excluir-instituicao.html', context)
 
 
 def editarInstituicao(request):
